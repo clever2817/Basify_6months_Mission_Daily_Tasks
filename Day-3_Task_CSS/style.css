@@ -53,6 +53,10 @@ ul > li {
   margin: 15px;
 }
 
+h1 {
+  text-align: center;
+}
+
 .static,
 .sticky,
 .relative,
