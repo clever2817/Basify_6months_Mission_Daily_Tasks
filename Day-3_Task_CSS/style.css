@@ -24,33 +24,48 @@ ul > li {
   text-align: justify;
 }
 
-.block {
+.block,
+.inline,
+.inline_block {
   display: block;
   border: 5px solid green;
   padding: 10px;
-}
-
-.inline {
-  display: inline;
-  border: 5px solid green;
-  padding: 10px;
-}
-
-.inline_block {
-  display: inline-block;
-  border: 5px solid green;
-  padding: 10px;
-  margin-top: 20px;
+  margin: 10px;
 }
 
 .box1,
 .box2,
-.box3 {
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box7,
+.box8,
+.box9 {
   height: 30px;
   width: 60px;
   border: 3px solid red;
   padding: 10px;
   margin: 15px;
+}
+
+.box1,
+.box2,
+.box3 {
+  display: block;
+}
+
+.box4,
+.box5,
+.box6 {
+  display: inline;
+}
+
+.box7,
+.box8,
+.box9 {
+  display: inline-block;
 }
 
 h1 {
