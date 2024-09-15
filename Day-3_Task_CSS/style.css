@@ -1,0 +1,35 @@
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: inline-flex;
+  border: 5px solid green;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.content1 {
+  height: 200px;
+  width: 200px;
+  border: 3px solid red;
+  padding: 10px;
+  margin: 15px;
+}
+
+.content2 {
+  height: 200px;
+  width: 200px;
+  border: 3px solid red;
+  padding: 10px;
+  margin: 15px;
+}
+span {
+  font-weight: 700;
+  font-size: large;
+}
+
+ul > li {
+  text-align: justify;
+}
