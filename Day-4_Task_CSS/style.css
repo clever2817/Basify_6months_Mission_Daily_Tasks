@@ -1,0 +1,25 @@
+/* Styling Grid Items in a Grid Container */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  border: 3px solid black;
+  padding: 10px;
+  gap: 20px 30px;
+}
+
+.grid-items {
+  border: 2px solid purple;
+  padding: 20px;
+  background-color: cyan;
+}
+
+#item1 {
+  grid-row: 2;
+}
+
+#item3 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
