@@ -23,3 +23,15 @@
   grid-column-start: 2;
   grid-column-end: 4;
 }
+
+/* CSS Media Query */
+
+.media {
+  background-color: lightgreen;
+}
+
+@media (min-width: 500px) {
+  .media {
+    background-color: pink;
+  }
+}
